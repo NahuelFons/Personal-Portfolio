@@ -327,15 +327,20 @@ nav ul li a:hover {
     color: #F7F7F8;
 }
 
+.icon-title {
+    width: 20px;
+    height: auto;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    vertical-align: middle;
+}
+
 .project-description h3 {
+    display: inline-block;
     margin: 0;
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: normal;
-    background-image: url('/images/icons/document-50.png');
-    background-repeat: no-repeat;
-    background-size: 20px auto;
-    padding-left: 25px;
 }
 
 .project-description p {
