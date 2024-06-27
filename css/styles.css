@@ -332,7 +332,7 @@ nav ul li a:hover {
     margin-bottom: 10px;
     font-size: 1rem;
     font-weight: normal;
-    background-image: url('/images/icons/document-50.png');
+    background-image: url('images/icons/document-50.png');
     background-repeat: no-repeat;
     background-size: 20px auto;
     padding-left: 25px;
