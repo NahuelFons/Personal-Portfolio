@@ -81,7 +81,7 @@ images.forEach(function(image) {
         setTimeout(function() {
             modal.classList.add("show");
         }, 10);
-        modalImg.src = this.closest(".image-container").querySelector(".site-img").src;
+        modalImg.src = this.getAttribute("data-modal-image");
         navbar.style.display = "none";
     });
 });
